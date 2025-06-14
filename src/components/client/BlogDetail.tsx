@@ -32,6 +32,7 @@ export default function BlogDetail() {
 
       if (data) setPost(data)
       setLoading(false)
+      if (error) console.error('Error fetching projects:', error)
     }
 
     if (slug) fetchPost()
