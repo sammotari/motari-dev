@@ -24,6 +24,7 @@ export default function Projects() {
         .order('created_at', { ascending: false })
 
       if (data) setProjects(data)
+      if (error) console.error('Error fetching projects:', error)
     }
 
     fetchProjects()
