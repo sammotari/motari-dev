@@ -25,6 +25,7 @@ export default function Blog() {
         .order('created_at', { ascending: false })
 
       if (data) setPosts(data)
+      if (error) console.error('Error fetching projects:', error)
     }
 
     fetchPosts()
