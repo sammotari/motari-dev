@@ -84,7 +84,7 @@ export default function UserPanel() {
         </div>
 
         <div className="mb-8">
-          <h1 className="text-2xl md:text-3xl font-bold text-gray-800">Welcome back, {user.email.split('@')[0]}</h1>
+          <h1 className="text-2xl md:text-3xl font-bold text-gray-800">Welcome back,{user?.email?.split('@')[0] ?? 'Guest'}</h1>
           <p className="text-gray-500 mt-1">Here's what's happening with your content</p>
         </div>
 
