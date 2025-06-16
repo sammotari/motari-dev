@@ -2,7 +2,6 @@ import { useState } from 'react'
 import { useUser } from '../context/UserContext'
 import { Navigate, Link } from 'react-router-dom'
 import { 
-  FiHome, 
   FiFolder, 
   FiFileText, 
   FiMessageSquare, 
