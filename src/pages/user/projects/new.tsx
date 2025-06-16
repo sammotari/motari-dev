@@ -2,7 +2,7 @@ import { useState } from 'react'
 import { useNavigate } from 'react-router-dom'
 import { ProjectService } from '../../../lib/ProjectService'
 import { useUser } from '../../../context/UserContext'
-import { FiArrowLeft, FiUpload, FiLink, FiGithub, FiExternalLink } from 'react-icons/fi'
+import { FiArrowLeft, FiUpload, FiGithub, FiExternalLink } from 'react-icons/fi'
 
 export default function NewProject() {
   const { user } = useUser()
